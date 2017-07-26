@@ -1,0 +1,11 @@
+<Project DefaultTargets="Compile"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    
+    <PropertyGroup>
+        <appname>TestForTC</appname>
+    </PropertyGroup>
+    
+    <Target Name="Compile">
+        <Message Text="Should be compiling stuff"/>
+    </Target>
+</Project>
