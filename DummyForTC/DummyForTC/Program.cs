@@ -10,7 +10,7 @@ namespace DummyForTC
     {
         static void Main(string[] args)
         {
-            /* No Comment :) 23047835u7348563u5 */
+            /* No Comment :) */
             Console.WriteLine("Build me TeamCity!\n\nThis is an awesome test branch, the best I've seen");
         }
     }
