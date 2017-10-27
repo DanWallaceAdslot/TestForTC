@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DummyForTC</id>
+        <!-- NOTE: The version node is required but is overridden in the build. -->
+        <version>1.0.0</version>
+        <authors>Adslot</authors>
+        <summary>Dummy project for teamcity testing</summary>
+        <description>
+          Automated Test Orchestrator Service
+        </description>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <frameworkAssemblies>
+        </frameworkAssemblies>
+        <dependencies></dependencies>
+    </metadata>
+</package>

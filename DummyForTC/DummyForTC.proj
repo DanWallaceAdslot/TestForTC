@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="FullBuild"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <ItemGroup>
+        <!-- define all the configurations that should build-->
+        <AllConfigurations Include="Release"/>
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <CommonBuildScriptsPath  Condition="'$(CommonBuildScriptsPath)' == ''">C:\CommonBuildScripts</CommonBuildScriptsPath>
+        <CommonBuildScriptsFile  Condition="'$(CommonBuildScriptsFile)' == ''">CommonBuild.props</CommonBuildScriptsFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <ProjectToBuild Condition="'$(ProjectToBuild)' == ''">DummyForTC</ProjectToBuild>
+        <RunCodeAnalysis Condition="'$(RunCodeAnalysis)' == ''">true</RunCodeAnalysis>
+        <AssemblyMajor>2</AssemblyMajor>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <NuspecFiles Include=".\DummyForTC\DummyForTC.nuspec"/>
+    </ItemGroup>
+    
+    <Import Project="$(CommonBuildScriptsPath)\$(CommonBuildScriptsFile)" />
+</Project>
+
