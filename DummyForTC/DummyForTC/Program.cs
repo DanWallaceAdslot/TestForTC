@@ -17,7 +17,6 @@ namespace DummyForTC
 
             var url = ConfigurationManager.AppSettings["BaseAdslotUrl"];
             Console.WriteLine($"BaseAdslotUrl = {url}");
-
             Console.ReadLine();
         }
     }
