@@ -25,7 +25,8 @@ namespace DummyForTC
                 Console.WriteLine(ex);
             }
 
-            // Gimme that warnings report!
+
+            // Gimme that warnings report! :)
 
 #warning This is a deliberate warning to test teamcity
             Console.ReadLine();
