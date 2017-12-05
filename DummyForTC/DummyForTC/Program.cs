@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Text.RegularExpressions;
+using System;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DummyForTC
 {
@@ -11,6 +8,7 @@ namespace DummyForTC
     {
         static void Main(string[] args)
         {
+#warning, this program is going to do stuff!
             try
             {
                 /*    No Comment :) (╯°□°）╯︵ ┻━┻) --------- :D */
@@ -24,12 +22,11 @@ namespace DummyForTC
             {
                 Console.WriteLine(ex);
             }
-
+#warning warning warning, rawhide!
 
             // Gimme that warnings report! :)
-
 #warning This is a deliberate warning to test teamcity
-            Console.ReadLine();
+            Console.ReadLine(); ; ; ; ;
         }
     }
 }
