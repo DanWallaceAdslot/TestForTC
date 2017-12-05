@@ -11,12 +11,21 @@ namespace DummyForTC
     {
         static void Main(string[] args)
         {
-            /*    No Comment :) (╯°□°）╯︵ ┻━┻) --------- :D */
-            Console.WriteLine("Build me TeamCity!\n\nThis is an awesome test branch, the best I've seen");
-            Console.WriteLine("Go on, flip that table! (╯°□°）╯︵ ┻━┻) - rahhhhhhhhhhhhhhhhhhhh");
+            try
+            {
+                /*    No Comment :) (╯°□°）╯︵ ┻━┻) --------- :D */
+                Console.WriteLine("Build me TeamCity!\n\nThis is an awesome test branch, the best I've seen");
+                Console.WriteLine("Go on, flip that table! (╯°□°）╯︵ ┻━┻) - rahhhhhhhhhhhhhhhhhhhh");
 
-            var url = ConfigurationManager.AppSettings["BaseAdslotUrl"];
-            Console.WriteLine($"BaseAdslotUrl = {url}");
+                var url = ConfigurationManager.AppSettings["BaseAdslotUrl"];
+                Console.WriteLine($"BaseAdslotUrl = {url}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
+#warning This is a deliberate warning to test teamcity
             Console.ReadLine();
         }
     }
