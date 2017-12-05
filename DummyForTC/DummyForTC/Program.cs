@@ -25,6 +25,8 @@ namespace DummyForTC
                 Console.WriteLine(ex);
             }
 
+            // saepjnfsaoigt wairjgta0[49utm 0
+
 #warning This is a deliberate warning to test teamcity
             Console.ReadLine();
         }
