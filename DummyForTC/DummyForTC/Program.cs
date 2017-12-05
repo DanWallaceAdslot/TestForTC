@@ -22,6 +22,10 @@ namespace DummyForTC
             {
                 Console.WriteLine(ex);
             }
+            
+            //TODO: be awesome
+            // TODO: be more awesome
+
 #warning warning warning, rawhide!
 
             // Gimme that warnings report! :)
