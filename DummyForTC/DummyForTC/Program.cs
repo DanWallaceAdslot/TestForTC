@@ -1,4 +1,3 @@
-﻿using System.Text.RegularExpressions;
 using System;
 using System.Configuration;
 
@@ -8,7 +7,6 @@ namespace DummyForTC
     {
         static void Main(string[] args)
         {
-#warning, this program is going to do stuff!
             try
             {
                 /*    No Comment :) (╯°□°）╯︵ ┻━┻) --------- :D */
@@ -22,15 +20,8 @@ namespace DummyForTC
             {
                 Console.WriteLine(ex);
             }
-            
-            //TODO: be awesome
-            // TODO: be more awesome
 
-#warning warning warning, rawhide!
-
-            // Gimme that warnings report! :)
-#warning This is a deliberate warning to test teamcity
-            Console.ReadLine(); ; ; ; ;
+            Console.ReadLine();
         }
     }
 }
